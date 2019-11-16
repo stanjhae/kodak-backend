@@ -18,7 +18,7 @@ const router = express.Router();
 
 routes(router);
 
-mongoose.connect('mongodb+srv://stanjhae:kodakblack@cluster0-nuhqm.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://stanjhae:kodakblack@cluster0-nuhqm.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(compression({ level: 6 })); // Default compression level is 6
 
