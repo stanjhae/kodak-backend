@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-sdk": "^2.524.0",
+    "aws-sdk": "^2.814.0",
     "bluebird": "latest",
     "body-parser": "latest",
     "compression": "latest",
